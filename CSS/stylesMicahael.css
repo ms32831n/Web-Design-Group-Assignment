@@ -1,0 +1,159 @@
+/*
+Author: Micahael Samuel
+Date: 12/19/23
+File name: contact.html
+*/
+
+/* CSS reset*/
+body,
+header,
+nav,
+main,
+footer,
+h1,
+div,
+img {
+  padding: 0.5em;
+  border: 0;
+}
+
+/* style rules for header*/
+
+header img {
+  width: 15%;
+  float: left;
+  margin-bottom: 1em;
+}
+
+h1 {
+  display: inline-block;
+  margin-left: 0.5em;
+  font-size: 4em;
+}
+/* style rules for navigation*/
+
+
+nav {
+  width: 100.85%;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.3em;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  background-color: #eaf2d7;
+  text-decoration: none;
+  margin-left: -17px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+/* style rules for main*/
+body {
+  background-color: #ffb703;
+}
+
+#gridcontent {
+  display: inline-grid;
+  grid-template-columns: 350px 550px 450px;
+  column-gap: 40px;
+  margin-bottom: 5em;
+}
+
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+#contentphone p {
+  text-align: center;
+  padding-bottom: 2.5em;
+}
+
+map {
+  display: block;
+  margin-left: auto;
+  margin-right: 12em;
+  width: 50%;
+}
+
+#contentphone img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#contentlocal {
+  margin-left: 4em;
+}
+#contenthours img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#contenthours ul, ul li {
+  list-style: none;
+}
+
+#contenthours ul {
+  text-align: center;
+  margin-right: 2em;
+}
+
+#socialdescription {
+  font-size: 2em;
+  text-align: center;
+}
+
+.Line {
+  display: inline-block;
+}
+
+h5 {
+  font-size: 2em;
+  text-align: center;
+}
+
+h6 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+
+#Facebook img {
+  width: 100px;
+  margin-bottom: 0.1em;
+}
+
+#Facebook {
+  margin-left: 20em;
+  margin-right: 10.6em;
+}
+
+#Youtube {
+  margin-right: 11em;
+}
+
+#Youtube img {
+  width: 100px;
+  margin-bottom: 0.1em;
+}
+
+#Instagram img {
+  width: 100px;
+  margin-bottom: 0.1em;
+}
+
+/* Footer styling*/
+footer {
+  text-align: center;
+  font-weight: bold;
+}
+/* 
+Map border is not aligned properly? Why?
+Footer text needs styling/ add more?
